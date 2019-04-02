@@ -1,5 +1,5 @@
 const constants = {
-  ITEM_IMAGE_PATH: '/img/',
+  ITEM_IMAGE_PATH: 'img/',
 };
 
 export default constants;

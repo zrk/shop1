@@ -1,5 +1,8 @@
 # Test task: Shop with Cart
 
+## Demo
+https://zrk.github.io/shop1/
+
 ## Project setup
 ```
 npm install

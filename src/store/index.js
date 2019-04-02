@@ -27,9 +27,10 @@ export const getters = {
     const item = state.db.items[id];
     if (!item) return undefined; // in case it's not in the DB
 
+    const publicPath = process.env.BASE_URL;
     return {
       ...item,
-      img: constants.ITEM_IMAGE_PATH + item.img,
+      img: publicPath + constants.ITEM_IMAGE_PATH + item.img,
       price: Dinero({ amount: parseInt(item.price * 100, 10) }),
     };
   },
