@@ -1,0 +1,27 @@
+.sticky-bar {
+  position: sticky;
+  padding: 5px;
+  color: $text-color-on-bg-accent;
+  background: $bg-accent;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
+  &_top {
+    top: 0;
+    margin-bottom: 20px;
+    border-bottom: $border;
+  }
+
+  &_bottom {
+    bottom: 0;
+    margin-top: 20px;
+    border-top: $border;
+  }
+
+  > * {
+    margin: 5px 10px;
+  }
+}
